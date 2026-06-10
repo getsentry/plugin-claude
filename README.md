@@ -1,2 +1,30 @@
-# plugin-claude
-Generated distribution of the Sentry plugin for Claude Code. Built from getsentry/sentry-for-ai - do not edit directly.
+# Sentry for Claude Code
+
+The Sentry plugin for Claude Code. It teaches Claude how to use Sentry: SDK
+setup wizards for any platform, production issue debugging via the Sentry MCP
+server, code review with Sentry context, and monitoring configuration.
+
+> [!IMPORTANT]
+> This repository is generated. It is built from the `main` branch of
+> [getsentry/sentry-for-ai](https://github.com/getsentry/sentry-for-ai) and
+> includes every skill in that library. Do not edit files here; make changes on
+> `main` and they will be rebuilt into this repository.
+
+## Install
+
+```bash
+claude plugin marketplace add getsentry/plugin-claude
+claude plugin install sentry@sentry-plugin-marketplace
+```
+
+## What's included
+
+- The full Sentry skill library (SDK setup wizards, debugging and code-review
+  workflows, feature setup).
+- The `/seer` command for natural-language Sentry queries.
+- The hosted [Sentry MCP server](https://mcp.sentry.dev) for querying your
+  Sentry environment.
+
+A few router skills are always available; the rest are hidden behind them with
+`disable-model-invocation` and load on demand, so they do not crowd the model's
+context.
