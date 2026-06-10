@@ -8,7 +8,7 @@
   },
   "keywords": ["sentry", "debugging", "monitoring", "error-tracking"],
   "license": "MIT",
-  "repository": "https://github.com/getsentry/sentry-for-ai",
+  "repository": "https://github.com/getsentry/plugin-claude",
   "mcpServers": {
     "sentry": {
       "type": "http",
