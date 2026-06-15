@@ -13,8 +13,7 @@ server, code review with Sentry context, and monitoring configuration.
 ## Install
 
 ```bash
-claude plugin marketplace add getsentry/plugin-claude
-claude plugin install sentry@sentry-plugin-marketplace
+claude plugin install sentry
 ```
 
 ## What's included
