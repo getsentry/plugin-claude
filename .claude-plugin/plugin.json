@@ -2,11 +2,16 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "sentry",
   "description": "Sentry Plugin for Claude Code to help with debugging including MCP and skill capabilities.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": {
     "name": "Sentry"
   },
-  "keywords": ["sentry", "debugging", "monitoring", "error-tracking"],
+  "keywords": [
+    "sentry",
+    "debugging",
+    "monitoring",
+    "error-tracking"
+  ],
   "license": "MIT",
   "repository": "https://github.com/getsentry/plugin-claude",
   "mcpServers": {
