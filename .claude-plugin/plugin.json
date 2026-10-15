@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "sentry",
   "description": "Sentry Plugin for Claude Code to help with debugging including MCP and skill capabilities.",
-  "version": "1.4.4",
+  "version": "1.4.5-dev.1.g7d248bd3",
   "author": {
     "name": "Sentry"
   },
